@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage Title</title>
+    <link rel="stylesheet" href="styles.css" />
+    <Tittle> Button Project</Tittle>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://media.istockphoto.com/id/91626487/photo/funny-kitten.webp?b=1&s=612x612&w=0&k=20&c=3VNz62EOEOcvd0WNmIw997E53K7eYrF_C7tNataVxWk="
+        alt="Kitten"
+      />
+      <p class="instruction">
+        This project is inside a small container, you can click to add to the
+        counter or hold down the button to speed up the counter.
+      </p>
+      <h2 id="h22">Select your color<span id="colorOutput"></span></h2>
+      <label>red:</label>
+      <input type="range" id="rangeRed" value="0" min="0" max="255" />
+      <label>green:</label>
+      <input type="range" id="rangeGreen" value="139" min="0" max="255" />
+      <label>blue:</label>
+      <input type="range" id="rangeBlue" value="168" min="0" max="255" />
+      <br />
+      <p>Clicks: <span id="displayClicks">0</span></p>
+      <button id="redButton">Button</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
